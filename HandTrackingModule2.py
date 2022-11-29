@@ -9,6 +9,7 @@ import math
 url = 'http://192.168.1.105:8080/shot.jpg'
 
 
+
 class handDetector():
     def __init__(self, mode=False, maxHands=2, detectionCon=1, trackCon=0.5):
         self.mode = mode
